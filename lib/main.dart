@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'screens/splashscreen.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp();
+
   runApp(const AquaFunApp());
 }
 
@@ -12,10 +17,6 @@ class AquaFunApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'AquaFun',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
       home: const SplashScreen(),
     );
   }

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "547869294499",
+    "project_id": "watersplashpark",
+    "storage_bucket": "watersplashpark.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547869294499:android:f7a8087b8d1ec3a874a416",
+        "android_client_info": {
+          "package_name": "com.example.watersplash_park_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547869294499-69bne4d50ekvn2v4mmqtkd7mkrhgc8gq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG1I01viIC9o8eKdRqf-fLjV5QnvLHuv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547869294499-69bne4d50ekvn2v4mmqtkd7mkrhgc8gq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
